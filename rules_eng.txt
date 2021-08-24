@@ -6,5 +6,3 @@ GAMEPLAY
 - Click on play to launch the sequence.
 - Repeat the sequence by clicking on the buttons.
 - If you successed the sequence is increased of one unity.
-
-https://en.wikipedia.org/wiki/Simon_(game)
