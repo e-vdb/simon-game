@@ -15,3 +15,17 @@ To play the game : save the following files in the same directory.
 * rules_eng.txt : plain text document that contains the rules of the game
 * highScore.txt: plain text document used to record the high score
 * highScore.gif : image taken from https://www.pngwing.com/en/free-png-shfbd
+
+
+## Tkinter interface
+
+### Gameplay
+
+### Rules
+
+The rules of Simon can be displayed thanks to the menu Rules from the GUI.
+
+### High score
+The current high score is saved in a text document (player name and score). It can be displayed from the menu Score.
+
+If you perform better a window will open to ask you to enter your name.
