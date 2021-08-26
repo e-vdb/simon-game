@@ -19,13 +19,23 @@ To play the game : save the following files in the same directory.
 
 ## Tkinter interface
 
+### Interface
+
+* Four colored buttons
+* One button *Play* to launch the sequence
+
 ### Gameplay
+
+* Click on play to launch the sequence (the first one has a length of 1).
+* Reproduce the sequence.
+  * If you success, the sequence length is increased of 1.
+  * If you fail, the game stops.
+  * If your score is higher than the current high score, a window will open to ask you to enter your name.
 
 ### Rules
 
-The rules of Simon can be displayed thanks to the menu Rules from the GUI.
+The rules of Simon can be displayed thanks to the menu *Rules*.
 
 ### High score
-The current high score is saved in a text document (player name and score). It can be displayed from the menu Score.
+The current high score is saved in a text document (player name and score). It can be displayed from the menu *Scores*.
 
-If you perform better a window will open to ask you to enter your name.
