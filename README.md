@@ -19,6 +19,9 @@ To play the game : save the following files in the same directory.
 
 ## Tkinter interface
 
+![simonGUI](https://user-images.githubusercontent.com/82372483/131112730-850190fb-f0f6-4dde-a9da-9d730f590dda.png)
+
+
 ### Interface
 
 * Four colored buttons
