@@ -30,7 +30,7 @@ To play the game : save the following files in the same directory.
 ### Gameplay
 
 * Click on play to launch the sequence (the first one has a length of 1).
-* The sequence highlights the button
+* The sequence is played. It highlights the buttons.
 * Reproduce the sequence.
   * If you success, the sequence length is increased of 1.
   * If you fail, the game stops.
