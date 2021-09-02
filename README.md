@@ -13,14 +13,14 @@ To learn more about SIMON : https://en.wikipedia.org/wiki/Simon_(game)
 To play the game : save the following files in the same directory.
 * simon.py : Python 3 script
 * rules_eng.txt : plain text document that contains the rules of the game
+* about.txt : plain text document that contains copyright and license information
 * highScore.txt: plain text document used to record the high score
 * highScore.gif : image taken from https://www.pngwing.com/en/free-png-shfbd
 
 
 ## Tkinter interface
 
-![simonGUI](https://user-images.githubusercontent.com/82372483/131112730-850190fb-f0f6-4dde-a9da-9d730f590dda.png)
-
+![simonGUI](https://user-images.githubusercontent.com/82372483/131795649-611790ea-20a9-4990-8ad7-c75b5cdebedc.png)
 
 ### Interface
 
@@ -36,10 +36,11 @@ To play the game : save the following files in the same directory.
   * If you fail, the game stops.
   * If your score is higher than the current high score, a window will open to ask you to enter your name.
 
-### Rules
-
-The rules of Simon can be displayed thanks to the menu *Rules*.
-
 ### High score
 The current high score is saved in a text document (player name and score). It can be displayed from the menu *Scores*.
 
+![simonGUI](https://user-images.githubusercontent.com/82372483/131795667-89635734-68db-4967-856f-4ae90508756d.png)
+
+### Help
+
+From the GUI you can read *How to play?* as well as copyright and license information.
