@@ -39,7 +39,8 @@ To play the game : save the following files in the same directory.
 ### High score
 The current high score is saved in a text document (player name and score). It can be displayed from the menu *Scores*.
 
-![simonGUI](https://user-images.githubusercontent.com/82372483/131795667-89635734-68db-4967-856f-4ae90508756d.png)
+![simonGUI_highScore](https://user-images.githubusercontent.com/82372483/131795766-fc349ec6-3f6a-44a8-a32f-26b017f6938e.png)
+
 
 ### Help
 
