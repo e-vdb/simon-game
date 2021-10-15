@@ -17,6 +17,9 @@ To play the game : save the following files in the same directory.
 * highScore.txt: plain text document used to record the high score
 * highScore.gif : image taken from https://www.pngwing.com/en/free-png-shfbd
 
+## Tasks list
+- [x] Implement python script
+- [ ] Document code
 
 ## Tkinter interface
 
