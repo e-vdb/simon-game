@@ -19,6 +19,7 @@ To play the game : save the following files in the same directory.
 
 ## Tasks list
 - [x] Implement python script
+- [x] Add high score functionality
 - [ ] Document code
 
 ## Tkinter interface
