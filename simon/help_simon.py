@@ -14,6 +14,7 @@ def printRules():
         gameRules=f.read()
     lbl_rules=tk.Label(ruleWindow,text=gameRules,fg="black", anchor="e", justify=tk.LEFT)
     lbl_rules.pack(side=tk.TOP)
+    ruleWindow.resizable(0,0)
     ruleWindow.mainloop()
 
 
@@ -24,4 +25,5 @@ def about():
         about=f.read()
     lbl_about=tk.Label(aboutWindow,text=about,fg="black", anchor="e", justify=tk.LEFT)
     lbl_about.pack(side=tk.TOP)
+    aboutWindow.resizable(0,0)
     aboutWindow.mainloop()

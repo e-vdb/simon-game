@@ -22,7 +22,18 @@ def show_high_score(image_high_score):
     lbl_image.pack()
     lbl_score_recovery=tk.Label(high_scoreWindow,text=score_recovery,fg="black",font='Arial 22')
     lbl_score_recovery.pack(side=tk.TOP)
+    btn_reset=tk.Button(master=high_scoreWindow,
+                        text="Reset",fg="red",font='Arial 15',
+                        command=lambda:reset_high_score(high_scoreWindow))
+    btn_reset.pack()
+    high_scoreWindow.resizable(0,0)
     high_scoreWindow.mainloop() 
+
+def reset_high_score(high_scoreWindow):
+    playerName="Player"
+    with open('highScore.txt','w') as f:
+        f.write(playerName+'\t'+str(0)+'\n')
+    high_scoreWindow.destroy()
 
 def write_high_score(window,max_seq,ent_name,new_high_scoreWindow,image_high_score):
     playerName=ent_name.get()
@@ -42,6 +53,7 @@ def new_high_score(window,max_seq,image_high_score):
     btn_enter_name=tk.Button(new_high_scoreWindow,text="Enter",
                              command=lambda:write_high_score(window,max_seq,ent_name,new_high_scoreWindow,image_high_score))
     btn_enter_name.pack(side=tk.BOTTOM)
+    new_high_scoreWindow.resizable(0,0)
     new_high_scoreWindow.mainloop()
     
 

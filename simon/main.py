@@ -11,9 +11,10 @@ instructions=["Click on Play to launch the sequence",
               "Click on Game to start a new game"]
 
 class Simon(object):
-    def __init__(self,seqLg = 1):
+    def __init__(self, seqLg = 1,can_play=True):
         self.seqLg = seqLg
         self.seqColors=[]
+        self.can_play=can_play
     
     def current_seqLg(self):
         return self.seqLg
@@ -23,6 +24,7 @@ class Simon(object):
     
     def reset_seqLg(self):
         self.seqLg = 1
+        self.can_play = True
 
     def combination(self):
         idCol=[count for count in range(4)]
@@ -47,6 +49,8 @@ class Player(object):
         return self.prop
 
 
+
+
 def highlightButton(x):
     btn_Colors[x].configure(bg=correspondingColors[x])
     
@@ -65,7 +69,7 @@ def flashButton(x,can):
     
 
 def playSeq(can,lbl_instructions,simon,player):
-    if not player.can_play:
+    if simon.can_play:
         simon.combination()
         seqColors=simon.get_seqColors()
         lbl_instructions.configure(text=instructions[1])
@@ -73,6 +77,7 @@ def playSeq(can,lbl_instructions,simon,player):
             idCol=count
             flashButton(idCol,can)
         player.can_play=True
+        simon.can_play=False
         lbl_instructions.configure(text=instructions[2])
 
 
@@ -87,6 +92,7 @@ def action(x,lbl_instructions,lbl_status,simon,player):
             lbl_instructions.configure(text=instructions[0])
             lbl_status.configure(text="   SUCCESS = "+str(simon.current_seqLg()))
             simon.increment_seqLg()
+            simon.can_play=True
         else:
             max_seq=simon.current_seqLg()-1
             lbl_status.configure(text="   GAME OVER ! MAX= "+str(max_seq))
@@ -152,5 +158,6 @@ top.add_command(label='Scores',command=lambda:show_high_score(image_high_score))
 top.add_cascade(label='Help', menu=helpMenu)
 helpMenu.add_command(label='How to play?',command=printRules)
 helpMenu.add_command(label='About',command=about)
+window.resizable(0,0)
 window.mainloop()
 
