@@ -20,7 +20,7 @@ To play the game : save the following files in the same directory.
 ## Tasks list
 - [x] Implement python script
 - [x] Add high score functionality
-- [ ] Add functionality in order to reset the current high score
+- [x] Add functionality in order to reset the current high score
 - [ ] Document code
 
 ## Tkinter interface
