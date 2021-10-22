@@ -1,0 +1,8 @@
+SIMON is a game to test your memory skills.
+
+Watch, Remember, Repeat!
+
+GAMEPLAY
+- Click on play to launch the sequence.
+- Repeat the sequence by clicking on the buttons.
+- If you successed the sequence is increased of one unity.
