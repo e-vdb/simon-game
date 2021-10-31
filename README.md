@@ -27,7 +27,8 @@ To play the game : save all files from simon folder files into the same director
 
 ## Tkinter interface
 
-![simonGUI](https://user-images.githubusercontent.com/82372483/131795649-611790ea-20a9-4990-8ad7-c75b5cdebedc.png)
+![simon_game](https://user-images.githubusercontent.com/82372483/139250124-6841dfe4-9404-4e16-9de8-adedc535ea9f.png)
+
 
 ### Interface
 
@@ -46,8 +47,7 @@ To play the game : save all files from simon folder files into the same director
 ### High score
 The current high score is saved in a text document (player name and score). It can be displayed from the menu *Scores*.
 
-![simonGUI_highScore](https://user-images.githubusercontent.com/82372483/131795766-fc349ec6-3f6a-44a8-a32f-26b017f6938e.png)
-
+![simon_game_high_score](https://user-images.githubusercontent.com/82372483/139250158-dc012c35-b151-44b2-a366-fd8471fe03d0.png)
 
 ### Help
 
