@@ -3,11 +3,20 @@
 """
 Created on Sat Oct 16 16:47:36 2021
 
-@author: renaud
+@author: Emeline
 """
 import tkinter as tk
 
 def printRules():
+    """
+    Load the text document rules_eng.txt.
+    Open a secondary window to display the rules.
+
+    Returns
+    -------
+    None.
+
+    """
     ruleWindow=tk.Toplevel()
     ruleWindow.title("How to play?")
     with open('rules_eng.txt') as f:
@@ -19,6 +28,15 @@ def printRules():
 
 
 def about():
+    """
+    Load the text document about.txt.
+    Open a secondary window to display the game information.
+
+    Returns
+    -------
+    None.
+
+    """
     aboutWindow=tk.Toplevel()
     aboutWindow.title("About") 
     with open('about.txt') as f:
